@@ -274,7 +274,7 @@ window.item_history_column_edit = new class {
 			'js-thresholds-row': is_item_type_numeric,
 			'js-history-row': is_item_type_numeric,
 			'js-regexes-row': is_item_type_text && display_value == <?=  CWidgetFieldColumnsList::DISPLAY_TEXT_EXTENDED ?>,
-			'js-monospace-row': is_item_type_text,
+			'js-monospace-row': is_item_type_text && display_value != <?=  CWidgetFieldColumnsList::DISPLAY_TEXT_EXTENDED ?>,
 			'js-local-time-row': this.#item_value_type == <?= ITEM_VALUE_TYPE_LOG ?>,
 			'js-display-as-image-row': this.#item_value_type == <?= ITEM_VALUE_TYPE_BINARY ?>
 		}

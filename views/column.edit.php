@@ -146,8 +146,8 @@ $form_grid->addItem([
 			->addValue(_('Bar'), CWidgetFieldColumnsList::DISPLAY_BAR)
 			->addValue(_('Indicators'), CWidgetFieldColumnsList::DISPLAY_INDICATORS)
 			->addValue(_('HTML'), CWidgetFieldColumnsList::DISPLAY_HTML)
+			->addValue(_('Post-Replace HTML'), CWidgetFieldColumnsList::DISPLAY_TEXT_EXTENDED)
 			->addValue(_('Single line'), CWidgetFieldColumnsList::DISPLAY_SINGLE_LINE)
-			->addValue(_('Extended'), CWidgetFieldColumnsList::DISPLAY_TEXT_EXTENDED)
 			->setModern()
 			->addClass(ZBX_STYLE_FORM_INPUT_MARGIN),
 		(new CNumericBox('max_length', $data['max_length'], 3, false, false, false))
