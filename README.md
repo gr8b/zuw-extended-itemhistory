@@ -51,7 +51,7 @@ unzip zuw-extended-itemhistory.zip -d zuw-extended-item-history
 After extraction, enable the module in the Zabbix frontend:
 
 - Open "_Administration → General → Modules_"
-- Locate "_Item history widget (extended)_"
+- Locate "_Extended item history widget_"
 - Click Enable
 
 ### Useful links
